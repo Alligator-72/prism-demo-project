@@ -1,6 +1,6 @@
-// src/config.ts
+// config.ts
+
 export const CONFIG = {
-  apiKey: "demo-secret-key-123456",
+  apiKey: process.env.API_KEY,
   endpoint: "https://api.example.com",
-  debug: true
-}
+};
